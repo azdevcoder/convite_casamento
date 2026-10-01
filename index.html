@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>G & A — Convite de Casamento</title>
+<link rel="preload" as="image" href="assets/envelope-verde.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body class="page-index">
+<canvas id="petalas"></canvas>
+<main class="index-wrap">
+  <p class="kicker">Você recebeu um convite especial</p>
+  <h1 class="script">Giovana <span>&</span> Andre</h1>
+  <p class="data-top">14 · 11 · 2026</p>
+  <div class="env-scene">
+    <div class="env-shadow"></div>
+    <div class="env" id="env" role="button" aria-label="Abrir envelope" tabindex="0">
+      <div class="env-back"></div>
+      <div class="carta" id="carta"><span class="c-mono">G · A</span><span class="c-nomes">Giovana & Andre</span><span class="c-data">14 · 11 · 2026</span></div>
+      <div class="env-pocket"></div>
+      <div class="env-flap" id="flap"></div>
+      <button class="selo selo-foto" id="selo" aria-label="Abrir convite"><img src="assets/selo-novo.png" alt="Selo de cera G e A"></button>
+      <div id="burst"></div>
+    </div>
+  </div>
+  <p class="dica" id="dica"><span class="dot"></span> Toque no selo para abrir</p>
+  <div id="barra"><span></span></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
