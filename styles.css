@@ -79,7 +79,8 @@ body.abrindo #barra{opacity:1}#barra span{display:block;height:100%;width:0;back
 .gal-btn{display:inline-flex;align-items:center;gap:10px;padding:16px 28px;border-radius:999px;background:linear-gradient(135deg,var(--dour-cl),var(--dour));color:#fff;text-decoration:none;font-weight:600;letter-spacing:.06em;box-shadow:0 12px 28px rgba(195,155,74,.4)}
 #rsvp{background:linear-gradient(150deg,var(--salvia-esc),var(--verde));border-radius:20px;text-align:center;color:#fff}
 #rsvp h2{color:#fff}.prazo{letter-spacing:.3em;color:var(--dour-cl)}
-.btn-dourado{display:inline-block;background:linear-gradient(180deg,var(--dour-cl),var(--dour));color:#4A3510;font-weight:600;padding:14px 30px;border-radius:999px;text-decoration:none}
+.btn-dourado{display:inline-block;background:linear-gradient(180deg,var(--dour-cl),var(--dour));color:#4A3510;font-weight:600;padding:14px 30px;border-radius:999px;text-decoration:none;cursor:pointer;position:relative;z-index:3}
+.btn-dourado:hover{filter:brightness(1.05);transform:translateY(-1px)}
 .rsvp-nota{font-size:.82rem;opacity:.9}
 footer{text-align:center;padding:24px;color:var(--suave);letter-spacing:.3em;font-size:.68rem}
 /* galeria */
